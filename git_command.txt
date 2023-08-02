@@ -1,0 +1,19 @@
+git init     --> initializes an empty git repository 
+
+git staus    --> gives the information of the current state of the git repositoy
+
+git checkout -b <bracnh name > dev   --> switching to new branch, if you want to switch to an exiting branch then use git checkout branch with -b 
+
+git add <file name >test.txt     --> used to stage the untracked file
+
+git commit -m <your message>"added  new things"    --> used to track the staged files after being added by git addo 
+
+git restore       -> to deleted file revert 
+
+git restore --staged test1.txt    --> to untracted the track files 
+
+git log               --> to check the logs 
+
+git revert 1f922334b07871fe9be0af1e2869770cc8cc812d (log)    --> to restored the deleted commits files 
+
+git branch  --> gives the info / list of all the branches in git 
